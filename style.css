@@ -1,0 +1,229 @@
+
+
+:root{
+    --primary-color: #c7ec60;
+    --secundary-color: #373b69;
+}
+
+.search{
+    background-color: white;
+    border: 2px solid  var(--primary-color);
+    border-radius:50px;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    color: black;
+}
+
+.search::placeholder{
+    color:#7378c5;
+}
+body{
+    background-color:#FED941;
+    
+}
+
+.search:focus{
+    outline: none;
+    background-color: white;
+}
+
+
+
+
+a#cali{
+    text-decoration: none;
+   background-image: url('./2451996.svg');
+   width: 3rem;
+   height: 3rem;
+   border-radius: 6rem;
+    position: absolute;
+    top: -352px;
+    left: 19px;
+    position: relative;
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    font-size: 2rem;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: black;
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+
+.w-18 {
+  width: 18rem;
+}
+
+.nav-link {
+    display: block;
+    padding: .5rem 3rem;
+    color: #0d6efd;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+.overview{
+    color: white;
+    background-color: #0b0c20;
+    padding: 2rem;
+    position: absolute;
+    left:0;
+    bottom: 0;
+    right: 0;
+    max-height: 100%;
+    transform: translateY(101%);
+    transition: transform 0.3s ease-in;
+}
+
+.movie:hover .overview{
+    transform: translateY(0);
+}
+
+
+.tarjeta{
+    color: white;
+    background-color: #0b0c20;
+}
+
+#peli{
+    color: white;
+    text-align: center;
+}
+
+#logo{
+    width: 100px;
+}
+
+img#img2{
+    width: 50%;
+    height: 40rem;
+}
+
+#form{
+display: flex;
+}
+
+#btnBuscar {
+    width: 4rem;
+    margin-left: 8px;
+    height: 2rem;
+    margin-top: 8px;
+    
+    border-radius: 12px;
+
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    margin-top: 5px;
+    display: block;
+    margin: auto;
+}
+
+#login{
+    width: 30px; 
+}
+
+iframe {
+    height: 30rem;
+    border: 0;
+}
+
+
+
+.card-img, .card-img-top {
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    width: 13rem;
+    margin: auto;
+}
+
+.card {
+    word-wrap: break-word;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    background-color: black;
+}
+
+.bg {
+    background-image: url(./peli.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 40rem;
+}
+    
+.card-title {
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+#buscarCorreo{
+    background-color: white;
+    border: 2px solid var(--primary-color);
+    border-radius: 50px;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    color: black;
+    width: 50%;
+    height: 3rem;
+    text-align: center;
+    margin: auto;
+    margin-top: 0.5rem;
+}
+
+#submit{
+    background-color: white;
+    border: 2px solid  var(--primary-color);
+    border-radius:50px;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    color: black;
+    width: 50%;
+    margin-top: 0.5rem;
+}
+
+#editar{
+    background-color: white;
+    border: 2px solid  var(--primary-color);
+    border-radius:50px;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    color: black;
+    width: 50%;
+    margin-top: 0.5rem;
+}
+
+#borrar{
+    background-color: white;
+    border: 2px solid  var(--primary-color);
+    border-radius:50px;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    color: black;
+    width: 50%;
+    margin-top: 0.5rem;
+}
